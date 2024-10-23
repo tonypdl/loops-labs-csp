@@ -13,4 +13,3 @@ print(letter_remover("abba babies", "b"))  # should return "aa aies"
 #CODE
 #BELOW
 #HERE
-

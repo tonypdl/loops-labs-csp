@@ -13,11 +13,3 @@ print(even_digit_counter(678963)) # this should print out 3
 #CODE
 #BELOW
 #HERE
-
-def even_digit_counter(num):
-    num = str(num)
-    counter = 0
-    for i in num:
-        if int(i) % 2 == 0:
-            counter += 1
-    return counter

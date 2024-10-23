@@ -8,14 +8,14 @@ from lab5_letter_remover import letter_remover
 class TestLab1(unittest.TestCase):
 
     def test_leapYear(self):
-        self.assertEqual(letter_remover(2000), )
-        self.assertEqual(letter_remover(2001), )
-        self.assertEqual(letter_remover(1900), )
-        self.assertEqual(letter_remover(646486), )
-        self.assertEqual(letter_remover(99), )
-        self.assertEqual(letter_remover(152213770), )
-        self.assertEqual(letter_remover(123456789), )
-        self.assertEqual(letter_remover(2020), )
+        self.assertEqual(letter_remover("I'm a big baby!", "b"), "I'm a ig ay!")
+        self.assertEqual(letter_remover("Fantastic Mr. Fox", "F"), "antastic Mr. ox")
+        self.assertEqual(letter_remover("Moonrise Kingdom", "o"), "Mnrise Kingdm")
+        self.assertEqual(letter_remover("Isle of Dogs", "x"), "Isle of Dogs")
+        self.assertEqual(letter_remover("fox jumps over the doggo", "o"), "fx jumps ver the dgg")
+        self.assertEqual(letter_remover("abba abba abba", "b"), "aa aa aa")
+        self.assertEqual(letter_remover("111111111", "1"), "")
+        self.assertEqual(letter_remover("2020", "0"), "22")
         
 
 if __name__ == '__main__':

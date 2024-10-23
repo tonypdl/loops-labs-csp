@@ -8,14 +8,11 @@ from lab3_divisor_finder import divisor_finder
 class TestLab1(unittest.TestCase):
 
     def test_leapYear(self):
-        self.assertEqual(divisor_finder(2000), )
-        self.assertEqual(divisor_finder(2001), )
-        self.assertEqual(divisor_finder(1900), )
-        self.assertEqual(divisor_finder(646486), )
-        self.assertEqual(divisor_finder(99), )
-        self.assertEqual(divisor_finder(152213770), )
-        self.assertEqual(divisor_finder(123456789), )
-        self.assertEqual(divisor_finder(2020), )
+        self.assertEqual(divisor_finder(6), "6 has the divisors 1 2 3")
+        self.assertEqual(divisor_finder(45), "45 has the divisors 1 3 5 9 15")
+        self.assertEqual(divisor_finder(14), "14 has the divisors 1 2 7")
+        self.assertEqual(divisor_finder(8128), "8128 has the divisors 1 2 4 8 16 32 64 127 254 508 1016 2032 4064")
+        self.assertEqual(divisor_finder(28), "28 has the divisors 1 2 4 7 14")
         
 
 if __name__ == '__main__':
