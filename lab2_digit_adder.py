@@ -24,7 +24,7 @@ digit_adder(9005) returns "14 is the sum of the digits of 9005"
 don't code below here
 ++++++++++++++++++++++
 """
-
-x = int(input("Enter in a number: "))
-print(digit_adder(x))
+if __name__ == "__main__":
+  x = int(input("Enter in a number: "))
+  print(digit_adder(x))
 
