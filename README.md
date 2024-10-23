@@ -54,7 +54,21 @@ Call the function three times to test if it works properly. Example:
 print(letter_remover("abba babies", "b"))  # should return "aa aies"
 ```
 
-## Lab #6 - Mini-Coding Project
+## Lab #6
+
+Write a function that takes in an integer and returns how many EVEN digits are contained in that integer. Do not use any Python/programming shortcuts. Name this function `even_digit_counter()`.
+
+Examples:
+- `even_digit_counter(22496)` returns `4`
+- `even_digit_counter(678963)` returns `3`
+
+Call the function three times to test if it works properly. Example:
+```python
+print(even_digit_counter(678963))  # this should print out 3
+```
+
+
+## Lab 7 - Mini-Coding Project
 
 ### Mini-Coding Project: Loops
 
