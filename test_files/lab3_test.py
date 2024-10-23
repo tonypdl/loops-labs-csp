@@ -13,6 +13,7 @@ class TestLab1(unittest.TestCase):
         self.assertEqual(divisor_finder(14), "14 has the divisors 1 2 7")
         self.assertEqual(divisor_finder(8128), "8128 has the divisors 1 2 4 8 16 32 64 127 254 508 1016 2032 4064")
         self.assertEqual(divisor_finder(28), "28 has the divisors 1 2 4 7 14")
+        self.assertEqual(divisor_finder(1), "1 has the divisors ")
         
 
 if __name__ == '__main__':

@@ -16,4 +16,3 @@ print(perfect_number(6))  # should return True
 #CODE
 #BELOW
 #HERE
-

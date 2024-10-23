@@ -17,7 +17,6 @@ divisor_finder(45) returns "45 has the divisors 1 3 5 9 15"
 
 
 
-
 """
 ++++++++++++++++++++
 don't code below here
