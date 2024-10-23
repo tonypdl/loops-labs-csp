@@ -31,6 +31,6 @@ reverse_number(10000) returns "00001"
 don't code below here
 ++++++++++++++++++++++
 """
-
-x = int(input("Enter in a number: "))
-print(reverse_number(x))
+if __name__ == "__main__":
+  x = int(input("Enter in a number: "))
+  print(reverse_number(x))
