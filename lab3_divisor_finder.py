@@ -22,6 +22,6 @@ divisor_finder(45) returns "45 has the divisors 1 3 5 9 15"
 don't code below here
 ++++++++++++++++++++++
 """
-
-x = int(input("Enter in a number:"))
-print(divisor_finder(x))
+if __name__ == "__main__":
+  x = int(input("Enter in a number:"))
+  print(divisor_finder(x))
