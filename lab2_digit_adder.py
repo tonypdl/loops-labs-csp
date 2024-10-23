@@ -7,12 +7,9 @@ Examples:
 digit_adder(123) returns "6 is the sum of the digits of 123"
 digit_adder(9005) returns "14 is the sum of the digits of 9005"
 """
-
 # CODE YOUR
 # FUNCTION
 # BELOW HERE
-
-
 
 
 
@@ -28,6 +25,6 @@ don't code below here
 ++++++++++++++++++++++
 """
 
-x = int(input())
+x = int(input("Enter in a number: "))
 print(digit_adder(x))
 

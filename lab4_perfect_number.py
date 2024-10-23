@@ -13,7 +13,6 @@ Call the function three times to test if it works properly. Example:
 
 print(perfect_number(6))  # should return True
 """
-
 #CODE
 #BELOW
 #HERE

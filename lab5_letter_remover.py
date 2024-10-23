@@ -10,7 +10,6 @@ Call the function three times to test if it works properly. Example:
 
 print(letter_remover("abba babies", "b"))  # should return "aa aies"
 """
-
 #CODE
 #BELOW
 #HERE

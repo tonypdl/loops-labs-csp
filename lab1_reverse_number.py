@@ -7,11 +7,9 @@ Examples:
 reverse_number(234) returns "432"
 reverse_number(10000) returns "00001"
 """
-
 #CODE 
 #YOUR
 #FUNCTION BELOW HERE
-
 
 
 
@@ -34,5 +32,5 @@ don't code below here
 ++++++++++++++++++++++
 """
 
-x = int(input())
+x = int(input("Enter in a number: "))
 print(reverse_number(x))
